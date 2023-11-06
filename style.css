@@ -208,12 +208,22 @@ a {
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 24px;
+  gap: 10px;
 }
 
 .footer .main-text {
   color: #6F8695;
   font-size: 20px;
+}
+
+.legal {
+  color: #6F8695;
+}
+
+.img-owner {
+  color: #3882F6;
 }
